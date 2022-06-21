@@ -1,24 +1,24 @@
 module.exports = {
   mode: 'jit',
-  content: ["./src/**/*.html"],
+  content: ["./dist/**/*.html"],
   theme: {
     extend: {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
       },
       backgroundImage: {
-        home: "url('../dist/images/home.svg')",
-        about: "url('../dist/images/about.svg')",
-        services: "url('../dist/images/services.svg')",
+        home: "url('images/home.svg')",
+        about: "url('images/about.svg')",
+        services: "url('images/services.svg')",
 
         // services
-        highlights: "url('../dist/images/highlights.svg')",
-        coding: "url('../dist/images/services/coding.svg')",
-        design: "url('../dist/images/services/design.svg')",
-        computer: "url('../dist/images/services/computer.svg')",
-        drawing: "url('../dist/images/services/drawing.svg')",
-        research: "url('../dist/images/services/research.svg')",
-        engineering: "url('../dist/images/services/engineering.svg')",
+        highlights: "url('images/highlights.svg')",
+        coding: "url('images/services/coding.svg')",
+        design: "url('images/services/design.svg')",
+        computer: "url('images/services/computer.svg')",
+        drawing: "url('images/services/drawing.svg')",
+        research: "url('images/services/research.svg')",
+        engineering: "url('images/services/engineering.svg')",
       },
       screens: {
         'sm': '640px',
